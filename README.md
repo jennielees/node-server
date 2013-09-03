@@ -1,5 +1,6 @@
 # node-server
-## a super lightweight static file server
+
+*a ridiculously lightweight static file server*
 
 This came into existence because I was playing around with some frontend javascript development and running into issues with CDN hosted files that didn't open from file:/// URLs.
 
@@ -8,6 +9,10 @@ This came into existence because I was playing around with some frontend javascr
 Plop `server.js` in your development directory -- it is designed to serve the directory it's run from, though you can modify the code to change that very easily.
 
 You may need to `npm install express` first.
+
+## Running
+
+`node server.js` 
 
 ## Viewing
 
